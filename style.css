@@ -5,7 +5,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
     /* margin-left: 400px; */
-    position: absolute;
+    position: fixed;
     display: flex;
 }
 .profileBox{
@@ -47,9 +47,15 @@
 background-color: rgba(194, 194, 194, 0.3);
 }
 #imageSize{
-    width: 60%;
+    width: 100%;
 }
 #imageSize1{
     height: 50%;
+}
+#navigationBar{
+    position:fixed;
+    /* background-color: rgba(230, 17, 56,0.9); */
+    z-index: 1000;
+    
 }
   
